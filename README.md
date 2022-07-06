@@ -1,5 +1,7 @@
 # py-novice
 收集了一些python相关的小练习，适合有一定python基础的，需要练习巩固并训练思维的新手。
+如果需要，这有一个编程闯关的网站：Checkio 链接：https://py.checkio.org/
+
 
 练习一：
 八皇后问题：
