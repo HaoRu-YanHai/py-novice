@@ -5,7 +5,7 @@
 问有多少种摆法
 """
 
-
+#笨方法：枚举法
 grida = ['a1','a2','a3','a4','a5','a6','a7','a8']
 gridb = ['b1','b2','b3','b4','b5','b6','b7','b8']
 gridc = ['c1','c2','c3','c4','c5','c6','c7','c8']
@@ -15,7 +15,6 @@ gridf = ['f1','f2','f3','f4','f5','f6','f7','f8']
 gridg = ['g1','g2','g3','g4','g5','g6','g7','g8']
 gridh = ['h1','h2','h3','h4','h5','h6','h7','h8']
 solution = []
-#a1,b1
 solve=0
 def judge(solution:list)->bool:
           col1=[i[1] for i in solution]
