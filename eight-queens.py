@@ -17,19 +17,19 @@ gridh = ['h1','h2','h3','h4','h5','h6','h7','h8']
 solution = []
 solve=0
 def judge(solution:list)->bool:
-          col1=[i[1] for i in solution]
-          
-          for i in col1:
-                    if col1.count(i) > 1:
+          col=[i[1] for i in solution]
+          for i in col:
+                    if col.count(i) > 1:
                               return False
-          for i in solution:
+          for grid in solution:
                     x,y = 1,1;
-                    while(ord(i[1])-x >= ord('1')):
-                              if chr(ord(i[0])+x)+chr(ord(i[1])-x) in solution:
+                    row,col=map(ord,grid)
+                    while(col-x >= ord('1')):
+                              if chr(row+x)+chr(col-x) in solution:
                                         return False
                               x+=1;
-                    while(ord(i[1])+y <= ord('8')):
-                              if chr(ord(i[0])+y)+chr(ord(i[1])+y) in solution:
+                    while(col+y <= ord('8')):
+                              if chr(row+y)+chr(col+y) in solution:
                                         return False
                               y+=1;
           print(solution)
