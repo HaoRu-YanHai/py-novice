@@ -30,6 +30,6 @@ def Josephus_ver1(N:int,M:int)->list:
                     L.append(lists[index-1])
                     lists.pop(index-1)
           return lists,L
-Josephus_ver1(6,5)
-Josephus_ver1(41,3)
-Josephus_ver1(30,9)
+print(Josephus_ver1(6,5))
+print(Josephus_ver1(41,3))
+print(Josephus_ver1(30,9))
