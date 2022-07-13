@@ -1,9 +1,9 @@
 # python练习
 收集了一些python相关的小练习，适合有一定python基础的，需要练习巩固并训练思维的新手。<br>
 如果需要，这有一个编程闯关的网站：
-[`Checkio`](https://py.checkio.org/){:target="_blank"}
+[`Checkio`](https://py.checkio.org/)
 ## Numpy入门70题
-[`练习题答案`](https://numpy.org.cn/article/advanced/numpy_exercises_for_data_analysis.html){:target="_blank"}
+[`练习题答案`](https://numpy.org.cn/article/advanced/numpy_exercises_for_data_analysis.html)
 1. 导入numpy作为np，并查看版本.
 2. 如何创建一维数组？
 3. 如何创建一个布尔数组？
