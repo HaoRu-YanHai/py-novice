@@ -74,14 +74,41 @@
     **问题：过滤具有petallength（第3列）&gt; 1.5 和 sepallength（第1列）&lt; 5.0 的iris_2d行**
 35. 如何从numpy数组中删除包含缺失值的行？
     **问题：选择没有任何nan值的iris_2d行。**
+    ```python
+      # Input
+      url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data'
+      iris_2d = np.genfromtxt(url, delimiter=',', dtype='float', usecols=[0,1,2,3])
+    ```
 36. 如何找到numpy数组的两列之间的相关性？
     **问题：在iris_2d中找出SepalLength（第1列）和PetalLength（第3列）之间的相关性**
+    ```
+    # Input
+      url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data'
+      iris_2d = np.genfromtxt(url, delimiter=',', dtype='float', usecols=[0,1,2,3])
+    ```
 37. 如何查找给定数组是否具有任何空值？
     **问题：找出iris_2d是否有任何缺失值。**
+    ```python
+      # Input
+      url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data'
+      iris_2d = np.genfromtxt(url, delimiter=',', dtype='float', usecols=[0,1,2,3])
+    ```
 38. 如何在numpy数组中用0替换所有缺失值？
     **问题：在numpy数组中将所有出现的nan替换为0**
+    ```python
+      # Input
+      url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data'
+      iris_2d = np.genfromtxt(url, delimiter=',', dtype='float', usecols=[0,1,2,3])
+      iris_2d[np.random.randint(150, size=20), np.random.randint(4, size=20)] = np.nan
+    ```
 39. 如何在numpy数组中查找唯一值的计数？
     **问题：找出鸢尾属植物物种中的独特值和独特值的数量**
+    ```python
+      # Input
+      url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data'
+      iris = np.genfromtxt(url, delimiter=',', dtype='object')
+      names = ('sepallength', 'sepalwidth', 'petallength', 'petalwidth', 'species')
+    ```
 40. 如何将数字转换为分类（文本）数组？
     **问题：将iris_2d的花瓣长度（第3列）加入以形成文本数组，这样如果花瓣长度为：**
 41. 如何从numpy数组的现有列创建新列？
