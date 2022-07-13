@@ -3,7 +3,7 @@
 如果需要，这有一个编程闯关的网站：
 [`Checkio`](https://py.checkio.org/){:target="_blank"}
 ## Numpy入门70题
-[`练习题答案`](https://numpy.org.cn/article/advanced/numpy_exercises_for_data_analysis.html)
+[`练习题答案`](https://numpy.org.cn/article/advanced/numpy_exercises_for_data_analysis.html){:target="_blank"}
 1. 导入numpy作为np，并查看版本.
 2. 如何创建一维数组？
 3. 如何创建一个布尔数组？
